@@ -12,7 +12,7 @@ class Movie {
     }
 
     public function getFullString(){
-        var_dump('Il nome del film è' .' '.$this->nome. ' - '. 'La lingua disponibile è' .' '.$this->lingua. ' - '. 'La data di uscita del film è'.' '.$this->uscita);
+        return('Il nome del film è' .' '.$this->nome. ' - '. 'La lingua disponibile è' .' '.$this->lingua. ' - '. 'La data di uscita del film è'.' '.$this->uscita);
     }
 }
 
